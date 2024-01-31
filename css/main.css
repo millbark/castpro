@@ -275,10 +275,12 @@ object-fit: contain;
 
 /*hello station*/
 #hello-station{
-    position: relative;
     margin: 0;padding: 0;
     height: 798px;
     background: var(--hello-station-bg);
+}
+#hello-station #wrap{
+    position: relative;
 }
 #hello-station .hello-station-title{
     padding: 70px 108px;
@@ -352,8 +354,8 @@ object-fit: contain;
     transform: translateY(-50%);
 }
 #hello-station .swiper-button-prev3{
-    left: 260px;
+    left: 20%;
 }
 #hello-station .swiper-button-next3{
-    right: 260px;
+    right: 20%;
 }
