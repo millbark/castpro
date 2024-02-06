@@ -12,7 +12,7 @@ $(function(){
       $(".search").click(function (e) {
         e.preventDefault();
         let current = $(this).attr('data-id');
-        $('#' + current).addClass('on'); // Add the 'on' class to the specific popup
+        $('#' + current).addClass('on');
         $("body").addClass("on");
     });
     $(".popup button").on("click", function () {
@@ -20,7 +20,6 @@ $(function(){
       $("body").removeClass("on");
   });
 
-  
 
     $('.hello-station-tab-menu li').click(function(e){
         e.preventDefault();
@@ -39,4 +38,24 @@ $(function(){
         $('.swiper-wrap').removeClass('on');
         $('#' + current).addClass('on');
       });
+
+      $("#inquiry .leaflet").click(function (e) {
+        e.preventDefault();
+        $('.popup-install-form').addClass('on'); 
+        $("body").addClass("on");
+    });
+    $(".popup-install-form button").on("click", function () {
+      $(this).closest(".popup-install-form").removeClass("on");
+      $("body").removeClass("on");
+  });
+
+  $("#quick-menu li").mouseenter(function (e) {
+    e.preventDefault();
+    $('#quick-menu li').removeClass('on');
+    $(this).addClass('on');
+});
+$("#quick-menu li").mouseleave(function (e) {
+  e.preventDefault();
+  $('#quick-menu li').removeClass('on');
+});
 })//ready

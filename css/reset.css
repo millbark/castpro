@@ -92,7 +92,7 @@ table {
 
 }
 
-img,li{vertical-align:middle;}
+img,li{vertical-align:middle; outline: none;}
 hr{display:none;}
 
 .blind,.hidden{position:absolute;left:0;width:0;height:0;font-size:0;
