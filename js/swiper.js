@@ -82,7 +82,7 @@ document.querySelectorAll('.hello-station-tab-menu').forEach(tab => {
 });
 
 // 페이지 로드 시 슬라이드 초기화
-window.addEventListener('load', function() {
+window.addEventListener('load', function(e) {
     initializeSwipers();
 });
 

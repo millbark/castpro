@@ -21,14 +21,14 @@ $(function(){
   });
 
 
-    $('.hello-station-tab-menu li').click(function(e){
-        e.preventDefault();
-        $('.hello-station-tab-menu li').removeClass('on');
-        $(this).addClass('on');
-        let current = $(this).attr('data-name');
-        $('.swiper-wrap').removeClass('on');
-        $('#' + current).addClass('on');
-    });
+    // $('.hello-station-tab-menu li').click(function(e){
+    //     e.preventDefault();
+    //     $('.hello-station-tab-menu li').removeClass('on');
+    //     $(this).addClass('on');
+    //     let current = $(this).attr('data-name');
+    //     $('.swiper-wrap').removeClass('on');
+    //     $('#' + current).addClass('on');
+    // });
 
       $('.hello-station-tab-menu').click(function(e){
         e.preventDefault();
