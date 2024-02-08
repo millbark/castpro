@@ -15,6 +15,9 @@ display: block;
 .swiper{
     padding:10px ;
 }
+.swiper-wrap{
+    position: relative;
+}
 .main-content{
     width: 100%;
     height: 100vh;
@@ -155,8 +158,8 @@ display: block;
 #main-history .swiper-button{
     z-index: 500;
     position: absolute;
-    top: 50%;
-    transform: translateY(-25%);
+    top: 60%;
+    transform: translateY(-50%);
     color: #c8c8c8;
     width: 85px;
     height: 85px;
@@ -218,7 +221,8 @@ object-fit: contain;
 #product .swiper-button{
     z-index: 101;
     position: absolute;
-    top: 54%;
+    top: 50%;
+    transform: translateY(-50%);
     color: #c8c8c8;
     width: 60px;
     height: 60px;
@@ -227,10 +231,10 @@ object-fit: contain;
     box-shadow: 3px 3px 10px #c8c8c8;
 }
 #product .swiper-button-prev2{
-    left: 150px;
+    left: 50px;
 }
 #product .swiper-button-next2{
-    right:160px;
+    right:55px;
 }
 /*search*/
 .search{
@@ -566,7 +570,8 @@ object-fit: contain;
 #hello-station .swiper-button{
     z-index: 500;
     position: absolute;
-    top: 63%;
+    top: 55%;
+    transform: translateY(-50%);
     color: #c8c8c8;
     width: 85px;
     height: 85px;
@@ -619,6 +624,7 @@ object-fit: contain;
     font-weight: bold;
     color: var(--point-color);
 }
+
 #inquiry li strong{
     font-size: 20px;
 }
