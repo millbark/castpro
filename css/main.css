@@ -338,10 +338,6 @@ body.on::after {
     background: white;
 }
 
-#product .mouse-scroll {
-    bottom: 20px;
-}
-
 /*popup*/
 .popup {
     z-index: 9999;
@@ -716,6 +712,7 @@ body.on::after {
     border: none;
     border-radius: 100%;
     font-size: 0;
+    box-shadow: 3px 3px 10px #c8c8c8;
 }
 
 /*inquiry*/
