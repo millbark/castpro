@@ -1,779 +1,781 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+    <!--xe-icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- link slick slide CSS-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/aside.css">
-       <!--jquery JS-->
+    <!--jquery JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <!--youtube-background 라이브러리 로드-->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--slick JS-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/swiper.js" defer></script>
+    <script src="js/slick.js"></script>
     <script src="js/main.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="wrap">
-        <div class="header-inner d-flex">
-        <h1><a href=""><img src="images/header/white-logo.png" alt="hellocharger-logo"></a></h1>
-        <nav>
-            <h2 class="blind">주메뉴</h2>
-            <ul>
-                <li><a href="#main-history">회사소개</a></li>
-                <li><a href="#product">제품소개</a></li>
-                <li><a href="#bizH">사업소개</a></li>
-                <li><a href="#our-merit">핵심경쟁력</a></li>
-                <li><a href="#hello-station">설치사례</a></li>
-                <li><a href="#inquiry">설치문의</a></li>
-            </ul>
-        </nav>
-            <ul class="lang d-flex">
-                <li><a href="#">KOR</a></li>
-                <li><a href="#">ENG</a></li>
-            </ul>
-        </div>
-    </div><!--wrap-->
+            <div class="header-inner d-flex">
+                <h1><a href=""><img src="images/header/white-logo.png" alt="hellocharger-logo"></a></h1>
+                <nav>
+                    <h2 class="blind">주메뉴</h2>
+                    <ul>
+                        <li><a href="#main-history">회사소개</a></li>
+                        <li><a href="#product">제품소개</a></li>
+                        <li><a href="#bizH">사업소개</a></li>
+                        <li><a href="#our-merit">핵심경쟁력</a></li>
+                        <li><a href="#hello-station">설치사례</a></li>
+                        <li><a href="#inquiry">설치문의</a></li>
+                    </ul>
+                </nav>
+                <ul class="lang d-flex">
+                    <li><a href="#">KOR</a></li>
+                    <li><a href="#">ENG</a></li>
+                </ul>
+            </div>
+        </div><!--wrap-->
     </header>
     <main>
-    <section class="main-content" id="main-visual">
-        <div class="wrap">
-        <div class="wrap-inner">
-        <h2>좋은 차에는<br>
-            좋은 충전기로
-        </h2>
-        <p class="about">
-            캐스트프로의 헬로차저는<br>
-            Android OS  기반의 혁신적인 기술력으로<br>
-            이전에는 없었던 새로운 충전 경험을 제공합니다.
-        </p>
-        <div class="profile">
-            <h3>회사소개서(Company Profile)</h3>
-            <ul class="d-flex">
-                <li><a href="#">KOR</a></li>
-                <li><a href="#">ENG</a></li>
-            </ul>
-        </div>
-        <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-    </div>
-    </div>
-    </section>
-    <section class="main-content" id="main-history">
-        <div class="wrap">
-            <div class="d-flex wrap-inner">
-        <h2>History
-            <strong>
-                전기차 충전 산업을<br>
-                선도하는 기업!<br>
-                캐스트프로
-            </strong>
-        </h2>
-        <!--스와이퍼 슬라이드1-->
-        <div class="swiper-wrap d-flex">
-        <div class="swiper mySwiper ">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide d-flex">
-                <p>2018</p>
-                <ul>
-                    <li>· 전기차충전기 핵심부품 개발</li>
-                    <li>· 제조사(C사)에 핵심부품 공급</li>
-                    <li>· 휴대용충전기 개발 착수</li>
-                    <li>· 완속충전기 개발 착수</li>
-                </ul>
-            </div>
-              <div class="swiper-slide">
-                <p>2021</p>
-                <ul>
-                    <li>· 천안1공장 개소</li>
-                    <li>· 휴대용충전기 출시(3kW)</li>
-                    <li>· 완속충전기 출시(7kW 2CH)</li>
-                    <li>· CSMS 개발 착수</li>
-                    <li>· 전기신사업 등록</li>
-                    <li>· 매출액 200억 돌파</li>
-                </ul>
-              </div>
-              <div class="swiper-slide">
-                <p>2022</p>
-                <ul>
-                    <li>· 완속충전기 출시(7kW1CH)</li>
-                    <li>· OCPP인증 획득(CSMS+CS)</li>
-                    <li>· 조달 혁신제품 지정(7kW2CH)</li>
-                    <li>· EVMODE KOREA JV설립</li>
-                    <li>· 매출액 300억 돌파</li>
-                </ul>
-              </div>
-              <div class="swiper-slide d-flex">
-                <p>2023</p>
-                <ul>
-                    <li>· 전기차충전기 핵심부품 개발</li>
-                    <li>· 제조사(C사)에 핵심부품 공급</li>
-                    <li>· 휴대용충전기 개발 착수</li>
-                    <li>· 완속충전기 개발 착수</li>
-                </ul>
-            </div>
-              <div class="swiper-slide">
-                <p>2024</p>
-                <ul>
-                    <li>· 천안1공장 개소</li>
-                    <li>· 휴대용충전기 출시(3kW)</li>
-                    <li>· 완속충전기 출시(7kW 2CH)</li>
-                    <li>· CSMS 개발 착수</li>
-                    <li>· 전기신사업 등록</li>
-                    <li>· 매출액 200억 돌파</li>
-                </ul>
-              </div>
-              <div class="swiper-slide">
-                <p>2025</p>
-                <ul>
-                    <li>· 완속충전기 출시(7kW1CH)</li>
-                    <li>· OCPP인증 획득(CSMS+CS)</li>
-                    <li>· 조달 혁신제품 지정(7kW2CH)</li>
-                    <li>· EVMODE KOREA JV설립</li>
-                    <li>· 매출액 300억 돌파</li>
-                </ul>
-              </div>
-            </div>          </div>
-            <div class="swiper-button swiper-button-next swiper-button-next1"></div>
-            <div class="swiper-button swiper-button-prev swiper-button-prev1"></div>
-</div>
-<p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-
-</div>
-</div><!--wrap-->
-    </section>
-    <section class="main-content" id="product">
-        <div class="wrap">
-            <div class="wrap-inner">
-        <h2>Product
-            <strong>
-                헬로차저는 <span>
-                앞서가는 기술력</span>으로
-                안정적인 충전 서비스를 제공합니다.
-            </strong>
-        </h2>
-        <div class="swiper-wrap d-flex">
-                <div class="swiper mySwiper-2">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide ">
-                    <img src="images/main/product/7kw.png" alt="7kw완속충전기">
-                    <p>7kw<br>
-                        완속충전기</p>
-                        <div class="search" data-id="popup1">
-                            <a href="">
-                            <img src="images/main/product/search.png" alt="상품 상세보기">
-                            </a>
-                        </div>
-                </div>
-                  <div class="swiper-slide">
-                    <img src="images/main/product/11kw.png" alt="11kw완속충전기">
-                    <p>11kw<br>
-                        완속충전기</p>
-                        <div class="search" data-id="popup2">
-                            <a href="">
-                            <img src="images/main/product/search.png" alt="상품 상세보기">
-                            </a>
-                        </div>
-                </div>
-                  <div class="swiper-slide">
-                    <img src="images/main/product/PLC.png" alt="plc완속충전기">
-                    <p>PLC<br>
-                        완속충전기</p>
-                        <div class="search" data-id="popup3">
-                            <a href="">
-                            <img src="images/main/product/search.png" alt="상품 상세보기">
-                            </a>
-                        </div>
-                </div>
-                  <div class="swiper-slide">
-                    <img src="images/main/product/50kw.png" alt="50kw완속충전기">
-                    <p>50kw<br>
-                        완속충전기</p>
-                        <div class="search" data-id="popup4">
-                            <a href="">
-                            <img src="images/main/product/search.png" alt="상품 상세보기">
-                            </a>
-                        </div>
-                </div>
-                <div class="swiper-slide ">
-                    <img src="images/main/product/7kw.png" alt="7kw완속충전기">
-                    <p>7kw<br>
-                        완속충전기</p>
-                        <div class="search" data-id="popup5">
-                            <a href="">
-                            <img src="images/main/product/search.png" alt="상품 상세보기">
-                            </a>
-                        </div>
-                </div>
-                  <div class="swiper-slide">
-                    <img src="images/main/product/11kw.png" alt="11kw완속충전기">
-                    <p>11kw<br>
-                        완속충전기</p>
-                        <div class="search" data-id="popup6">
-                            <a href="">
-                            <img src="images/main/product/search.png" alt="상품 상세보기">
-                            </a>
-                        </div>
-                </div>
-                  <div class="swiper-slide">
-                    <img src="images/main/product/PLC.png" alt="plc완속충전기">
-                    <p>PLC<br>
-                        완속충전기</p>
-                        <div class="search" data-id="popup7">
-                            <a href="">
-                            <img src="images/main/product/search.png" alt="상품 상세보기">
-                            </a>
-                        </div>
-                </div>
-                  <div class="swiper-slide">
-                    <img src="images/main/product/50kw.png" alt="50kw완속충전기">
-                    <p>50kw<br>
-                        완속충전기</p>
-                        <div class="search" data-id="popup8">
-                            <a href="">
-                            <img src="images/main/product/search.png" alt="상품 상세보기">
-                            </a>
-                        </div>
-                </div>
-          </div><!--swiper-wrapper-->
-          <div class="swiper-pagination swiper-pagination2"></div>
-    </div><!--mySwiper-2-->
-            <div class="swiper-button swiper-button-next swiper-button-next2"></div>
-            <div class="swiper-button swiper-button-prev swiper-button-prev2"></div>
-            </div><!--swiper-wrap-->
-    <div class="popup-wrap">
-        <div class="popup" id="popup1">
-            <div class="popup-inner d-flex">
-            <div class="popup-image">
-                <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
-            </div>
-            <div class="popup-text">
-                <h3>7kw 완속충전기</h3>
-                <p><span>모델명</span>CSC - 07A7</p>
-                <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
-                <p><span>무게</span>10kg</p>
-                <p><span>재질</span>PC / ABS</p>
-                <p><span>보호등급</span>IP44</p>
-                <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
-                <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
-                <p><span>케이블 길이</span>5 / 7 / 10M</p>
-            </div>
-        </div>
-            <button type="button">X</button>
-        </div>
-        <div class="popup" id="popup2">
-            <div class="popup-inner d-flex">
-                <div class="popup-image">
-                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
-                </div>
-                <div class="popup-text">
-                    <h3>7kw 완속충전기</h3>
-                    <p><span>모델명</span>CSC - 07A7</p>
-                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
-                    <p><span>무게</span>10kg</p>
-                    <p><span>재질</span>PC / ABS</p>
-                    <p><span>보호등급</span>IP44</p>
-                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
-                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
-                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+        <section class="main-content" id="main-visual">
+            <div class="wrap">
+                <div class="wrap-inner">
+                    <h2>좋은 차에는<br>
+                        좋은 충전기로
+                    </h2>
+                    <p class="about">
+                        캐스트프로의 헬로차저는<br>
+                        Android OS 기반의 혁신적인 기술력으로<br>
+                        이전에는 없었던 새로운 충전 경험을 제공합니다.
+                    </p>
+                    <div class="profile">
+                        <h3>회사소개서(Company Profile)</h3>
+                        <ul class="d-flex">
+                            <li><a href="#">KOR</a></li>
+                            <li><a href="#">ENG</a></li>
+                        </ul>
+                    </div>
+                    <p class="mouse-scroll">
+                        Scroll Down
+                        <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+                    </p>
                 </div>
             </div>
-            <button type="button">X</button>
-        </div>
-        <div class="popup" id="popup3">
-            <div class="popup-inner d-flex">
-                <div class="popup-image">
-                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
-                </div>
-                <div class="popup-text">
-                    <h3>7kw 완속충전기</h3>
-                    <p><span>모델명</span>CSC - 07A7</p>
-                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
-                    <p><span>무게</span>10kg</p>
-                    <p><span>재질</span>PC / ABS</p>
-                    <p><span>보호등급</span>IP44</p>
-                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
-                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
-                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
-                </div>
-            </div>
-            <button type="button">X</button>
-        </div>
-        <div class="popup" id="popup4">
-            <div class="popup-inner d-flex">
-                <div class="popup-image">
-                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
-                </div>
-                <div class="popup-text">
-                    <h3>7kw 완속충전기</h3>
-                    <p><span>모델명</span>CSC - 07A7</p>
-                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
-                    <p><span>무게</span>10kg</p>
-                    <p><span>재질</span>PC / ABS</p>
-                    <p><span>보호등급</span>IP44</p>
-                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
-                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
-                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
-                </div>
-            </div>
-            <button type="button">X</button>
-        </div>
-        <div class="popup" id="popup5">
-            <div class="popup-inner d-flex">
-                <div class="popup-image">
-                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
-                </div>
-                <div class="popup-text">
-                    <h3>7kw 완속충전기</h3>
-                    <p><span>모델명</span>CSC - 07A7</p>
-                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
-                    <p><span>무게</span>10kg</p>
-                    <p><span>재질</span>PC / ABS</p>
-                    <p><span>보호등급</span>IP44</p>
-                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
-                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
-                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
-                </div>
-            </div>
-            <button type="button">X</button>
-        </div>
-        <div class="popup" id="popup6">
-            <div class="popup-inner d-flex">
-                <div class="popup-image">
-                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
-                </div>
-                <div class="popup-text">
-                    <h3>7kw 완속충전기</h3>
-                    <p><span>모델명</span>CSC - 07A7</p>
-                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
-                    <p><span>무게</span>10kg</p>
-                    <p><span>재질</span>PC / ABS</p>
-                    <p><span>보호등급</span>IP44</p>
-                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
-                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
-                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
-                </div>
-            </div>
-            <button type="button">X</button>
-        </div>
-        <div class="popup" id="popup7">
-            <div class="popup-inner d-flex">
-                <div class="popup-image">
-                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
-                </div>
-                <div class="popup-text">
-                    <h3>7kw 완속충전기</h3>
-                    <p><span>모델명</span>CSC - 07A7</p>
-                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
-                    <p><span>무게</span>10kg</p>
-                    <p><span>재질</span>PC / ABS</p>
-                    <p><span>보호등급</span>IP44</p>
-                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
-                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
-                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
-                </div>
-            </div>
-            <button type="button">X</button>
-        </div>
-        <div class="popup" id="popup8">
-            <div class="popup-inner d-flex">
-                <div class="popup-image">
-                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
-                </div>
-                <div class="popup-text">
-                    <h3>7kw 완속충전기</h3>
-                    <p><span>모델명</span>CSC - 07A7</p>
-                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
-                    <p><span>무게</span>10kg</p>
-                    <p><span>재질</span>PC / ABS</p>
-                    <p><span>보호등급</span>IP44</p>
-                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
-                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
-                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
-                </div>
-            </div>
-            <button type="button">X</button>
-        </div>
-    </div>
-    <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-</div>
-</div><!--wrap-->
-    </section>
-    <section class="main-content" id="bizH">
-        <div class="wrap">
-            <div class="wrap-inner">
-                <h2>Biz H
-                    <strong>
-                        충전소를 직접 운영하며<br>
-                    <span>수익 창출을 원하는 기업</span>에게<br>
-                    사업에 필요한 모든 시스템을 제공합니다.
-                    </strong>
-                </h2>
-                <div class="leaflet">
-                    <h3>리플렛</h3>
-                    <p><a href="#">KOR</a></p>
-                </div>
-            </div><!--wrap-inner-->
-        </div><!--wrap-->
-        <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-    </section>
-    <section class="main-content" id="helloB">
-        <div class="wrap">
-            <div class="wrap-inner">
-                <h2>Hello B
-                    <strong>
-                        충전소를 위탁 운영하며<br> 
-                        <span>수익 창출을 원하는 건물 소유주</span>에게<br>
-                        충전 내역을 제공하고 충전 수익을 분배합니다.
-                    </strong>
-                </h2>
-                <div class="leaflet">
-                    <h3>리플렛</h3>
-                    <p><a href="#">KOR</a></p>
-                </div>
-            </div><!--wrap-inner-->
-        </div><!--wrap-->
-        <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-    </section>
-    <section class="main-content" id="hello-charger">
-        <div class="wrap">
-            <div class="wrap-inner">
-                <h2>Hello Station
-                    <strong>
-                        <span>전기차 충전소 창업</span> 및 구축에 도움을 드리고<br> 
-                        성공적인 사업 수행을 지원합니다.
-                    </strong>
-                </h2>
-                <div class="leaflet">
-                    <h3>리플렛</h3>
-                    <p><a href="#">KOR</a></p>
-                </div>
-            </div><!--wrap-inner-->
-        </div><!--wrap-->
-        <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-    </section>
-    <section class="main-content" id="our-merit">
-        <div class="wrap">
-            <!--유튜브는 아이프레임 형식으로만 가져올 수 있음
-            비디오 태그 원할경우 영상 다운받아서 주소 넣으면 됩니다
-            -->
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0RRCrgpCmv0?autoplay=1&mute=1&controls=0&&loop=1&playlist=0RRCrgpCmv0&rell=0&showinfo=0&playsinline=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div class="wrap-inner">
-                <h2>헬로차저가 좋은 충전기인 이유</h2>
-                <ul class="d-flex">
-                    <li>
-                        <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                        <h3>충전기 내구성</h3>
-                        <p>
-                            제품 설계 시 NRTL인증 <br>
-                            기준을 반영하여 <br>
-                            높은 내구성과 안전성을 <br>
-                            보여줍니다.<br>
-                        </p>
-                    </li>
-                    <li>
-                        <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                        <h3>통합운영시스템</h3>
-                        <p>
-                            자체 개발한 CSMS를 통해 <br>
-                            충전기 실시간 모니터링과 <br>
-                            원격제어를 구현했습니다.<br>
-                        </p> 
-                    </li>
-                    <li>
-                        <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                        <h3>누구나 간편하게</h3>
-                        <p>
-                            충전기에 부착된 신용카드 <br>
-                            결제 리더기를 사용하여 <br>
-                            번거로운 회원가입 절차 없이 <br>
-                            간편하게 사용할 수 있습니다.<br>
-                        </p>
-                    </li>
-                    <li>
-                        <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                        <h3>빠른 현장대응</h3>
-                        <p>
-                            자체 AS팀과 전국 37개 <br>
-                            직영지사를 운영중인 <br>
-                            전문 업체를 통해 전국 어디나 <br>
-                            신속한 AS를 제공합니다. <br>
-                        </p>
-                    </li>
-                    <li>
-                        <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                        <h3>품질 보증</h3>
-                        <p>
-                            소모품을 제외한 <br>
-                            충전기 핵심 부품에  <br>
-                            대하여 업계 최초로 5년<br>
-                            무상보증을 실시합니다.<br>
-                        </p>
-                    </li>
-                </ul>
-            </div><!--wrap-inner-->
-            <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-        </div><!--wrap-->
-    </section>
-    <section class="main-content" id="technology">
-        <div class="wrap">
-            <div class="wrap-inner">
-                <h2>Technology
-                    <strong>
-                        헬로차저는 미래를 향해 나아갑니다.
-                    </strong>
-                </h2>
-                <div class="technology-content">
-                    <img src="images/main/technology/technology-list.png" alt="technology-list">
-                <ul class="d-flex">
-                    <li>
-                        <h3>DR</h3>
-                        <p>
-                            전력 피크시 전력수요관리(DR)을 <br>
-                            통해 전기차 충전기 출력전력을 <br>
-                            통제하여 수요 감축 전력만큼 <br>
-                            보상금을 지급되는 시스템입니다.<br>
-                        </p>
-                    </li>
-                    <li>
-                        <h3>V2G</h3>
-                        <p>
-                            전기차와 전력망을 연결하는<br>
-                            V2G 기술을 접목한<br>
-                            스마트 그리드 서비스를<br>
-                            지향합니다.<br>
-                        </p>
-                    </li>
-                    <li>
-                        <h3>Green Energy</h3>
-                        <p>
-                            재생에너지를 적극<br>
-                            활용한 신개념<br> 
-                            충전 서비스를  제공합니다.<br>
-                        </p>
-                    </li>
-                    <li>
-                        <h3>Big Data</h3>
-                        <p>
-                            양질의 빅데이터를 분석 및 <br>
-                            활용하여 충전기 및 <br>
-                            관제 서비스 관리는 물론 고객의<br> 
-                            최적 충전 경험을 제시합니다.<br>
-                        </p>
-                    </li>
-                    <li>
-                        <h3>DR</h3>
-                        <p>
-                            전력 피크시 전력수요관리(DR)을 <br>
-                            통해 전기차 충전기 출력전력을 <br>
-                            통제하여 수요 감축 전력만큼 <br>
-                            보상금을 지급되는 시스템입니다.<br>
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            </div><!--wrap-inner-->
-            <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-        </div><!--wrap-->
-    </section>
-    <section class="main-content" id="hello-station">
-        <div class="wrap">
-        <div class="hello-station-title">
-        <h2>Hello Station
-            <strong>
-                제품의 가치와 기술력을 인정 받은 헬로차저 이미 많은 고객님과 함께 하고 있습니다.
-            </strong>
-        </h2>
-        <ul class="d-flex">
-            <li><a href="#" class="hello-station-tab-menu on" data-name="hello-station-tab1">공공주택</a></li>
-            <li><a href="#" class="hello-station-tab-menu" data-name="hello-station-tab2">상업시설</a></li>
-            <li><a href="#" class="hello-station-tab-menu" data-name="hello-station-tab3">사무실</a></li>
-            <li><a href="#" class="hello-station-tab-menu" data-name="hello-station-tab4">기타</a></li>
-        </ul>
-    </div>
-    <div class="swiper-wrap d-flex on" id="hello-station-tab1">
-            <div class="swiper mySwiper-3">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                </div> <!--swiper-wrapper-->
-                <div class="swiper-pagination swiper-pagination3"></div>         
-            </div><!--mySwiper-3-->
-                <div class="swiper-button swiper-button-next swiper-button-next3"></div>
-                <div class="swiper-button swiper-button-prev swiper-button-prev3"></div>
-                </div>
-                <div class="swiper-wrap d-flex" id="hello-station-tab2">
-                    <div class="swiper mySwiper-3">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                        </div> <!--swiper-wrapper-->
-                        <div class="swiper-pagination swiper-pagination3"></div>         
-                    </div><!--mySwiper-3-->
-                        <div class="swiper-button swiper-button-next swiper-button-next3"></div>
-                        <div class="swiper-button swiper-button-prev swiper-button-prev3"></div>
-                        </div>
-                        <div class="swiper-wrap d-flex" id="hello-station-tab3">
-                            <div class="swiper mySwiper-3">
-                                <div class="swiper-wrapper">
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                </div> <!--swiper-wrapper-->
-                                <div class="swiper-pagination swiper-pagination3"></div>         
-                            </div><!--mySwiper-3-->
-                                <div class="swiper-button swiper-button-next swiper-button-next3"></div>
-                                <div class="swiper-button swiper-button-prev swiper-button-prev3"></div>
+        </section>
+        <section class="main-content" id="main-history">
+            <div class="wrap">
+                <div class="d-flex wrap-inner">
+                    <h2>History
+                        <strong>
+                            전기차 충전 산업을<br>
+                            선도하는 기업!<br>
+                            캐스트프로
+                        </strong>
+                    </h2>
+                    <!--스와이퍼 슬라이드1-->
+                    <div class="swiper-wrap d-flex">
+                        <div class="swiper mySwiper ">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide d-flex">
+                                    <p>2018</p>
+                                    <ul>
+                                        <li>· 전기차충전기 핵심부품 개발</li>
+                                        <li>· 제조사(C사)에 핵심부품 공급</li>
+                                        <li>· 휴대용충전기 개발 착수</li>
+                                        <li>· 완속충전기 개발 착수</li>
+                                    </ul>
                                 </div>
-                                <div class="swiper-wrap d-flex" id="hello-station-tab4">
-                                    <div class="swiper mySwiper-3">
-                                        <div class="swiper-wrapper">
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                          <div class="swiper-slide"><img src="images/main/hello-station/hello-station-part1-1.png" alt=""></div>
-                                        </div> <!--swiper-wrapper-->
-                                        <div class="swiper-pagination swiper-pagination3"></div>         
-                                    </div><!--mySwiper-3-->
-                                        <div class="swiper-button swiper-button-next swiper-button-next3"></div>
-                                        <div class="swiper-button swiper-button-prev swiper-button-prev3"></div>
-                                        </div>
-                                        <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-                                    </div><!--wrap-->
-    </section>
-<section class="main-content" id="inquiry">
-    <div class="wrap">
-        <div class="wrap-inner">
-            <h2>설치문의
-                <strong>
-                    좋은 차에는 좋은 충전기로<br>
-                    헬로차저가 충전기 설치를 도와드립니다.<br>
-                </strong>
-            </h2>
-            <ul class="d-flex">
-                <li>
-                    <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                    <h3>STEP 1
-                        <strong>설치 문의</strong>
-                    </h3>
-                    <p>
-                        설치 신청서를 통해<br>
-                        문의해 주세요.<br>
-                    </p>
-                    <div class="leaflet d-flex">
-                        <p><a href="#">설치 신청서 등록</a></p>
+                                <div class="swiper-slide">
+                                    <p>2021</p>
+                                    <ul>
+                                        <li>· 천안1공장 개소</li>
+                                        <li>· 휴대용충전기 출시(3kW)</li>
+                                        <li>· 완속충전기 출시(7kW 2CH)</li>
+                                        <li>· CSMS 개발 착수</li>
+                                        <li>· 전기신사업 등록</li>
+                                        <li>· 매출액 200억 돌파</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p>2022</p>
+                                    <ul>
+                                        <li>· 완속충전기 출시(7kW1CH)</li>
+                                        <li>· OCPP인증 획득(CSMS+CS)</li>
+                                        <li>· 조달 혁신제품 지정(7kW2CH)</li>
+                                        <li>· EVMODE KOREA JV설립</li>
+                                        <li>· 매출액 300억 돌파</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide d-flex">
+                                    <p>2023</p>
+                                    <ul>
+                                        <li>· 전기차충전기 핵심부품 개발</li>
+                                        <li>· 제조사(C사)에 핵심부품 공급</li>
+                                        <li>· 휴대용충전기 개발 착수</li>
+                                        <li>· 완속충전기 개발 착수</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p>2024</p>
+                                    <ul>
+                                        <li>· 천안1공장 개소</li>
+                                        <li>· 휴대용충전기 출시(3kW)</li>
+                                        <li>· 완속충전기 출시(7kW 2CH)</li>
+                                        <li>· CSMS 개발 착수</li>
+                                        <li>· 전기신사업 등록</li>
+                                        <li>· 매출액 200억 돌파</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p>2025</p>
+                                    <ul>
+                                        <li>· 완속충전기 출시(7kW1CH)</li>
+                                        <li>· OCPP인증 획득(CSMS+CS)</li>
+                                        <li>· 조달 혁신제품 지정(7kW2CH)</li>
+                                        <li>· EVMODE KOREA JV설립</li>
+                                        <li>· 매출액 300억 돌파</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button swiper-button-next swiper-button-next1"></div>
+                        <div class="swiper-button swiper-button-prev swiper-button-prev1"></div>
                     </div>
-                    <div class="popup-install-form">
-                        <button type="button">X</button>
+                    <p class="mouse-scroll">
+                        Scroll Down
+                        <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+                    </p>
+                </div>
+            </div><!--wrap-->
+        </section>
+        <section class="main-content" id="product">
+            <div class="wrap">
+                <div class="wrap-inner">
+                    <h2>Product
+                        <strong>
+                            헬로차저는 <span>
+                                앞서가는 기술력</span>으로
+                            안정적인 충전 서비스를 제공합니다.
+                        </strong>
+                    </h2>
+                    <div class="swiper-wrap d-flex">
+                        <div class="swiper mySwiper-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide ">
+                                    <img src="images/main/product/7kw.png" alt="7kw완속충전기">
+                                    <p>7kw<br>
+                                        완속충전기</p>
+                                    <div class="search" data-id="popup1">
+                                        <a href="">
+                                            <img src="images/main/product/search.png" alt="상품 상세보기">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/main/product/11kw.png" alt="11kw완속충전기">
+                                    <p>11kw<br>
+                                        완속충전기</p>
+                                    <div class="search" data-id="popup2">
+                                        <a href="">
+                                            <img src="images/main/product/search.png" alt="상품 상세보기">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/main/product/PLC.png" alt="plc완속충전기">
+                                    <p>PLC<br>
+                                        완속충전기</p>
+                                    <div class="search" data-id="popup3">
+                                        <a href="">
+                                            <img src="images/main/product/search.png" alt="상품 상세보기">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/main/product/50kw.png" alt="50kw완속충전기">
+                                    <p>50kw<br>
+                                        완속충전기</p>
+                                    <div class="search" data-id="popup4">
+                                        <a href="">
+                                            <img src="images/main/product/search.png" alt="상품 상세보기">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide ">
+                                    <img src="images/main/product/7kw.png" alt="7kw완속충전기">
+                                    <p>7kw<br>
+                                        완속충전기</p>
+                                    <div class="search" data-id="popup5">
+                                        <a href="">
+                                            <img src="images/main/product/search.png" alt="상품 상세보기">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/main/product/11kw.png" alt="11kw완속충전기">
+                                    <p>11kw<br>
+                                        완속충전기</p>
+                                    <div class="search" data-id="popup6">
+                                        <a href="">
+                                            <img src="images/main/product/search.png" alt="상품 상세보기">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/main/product/PLC.png" alt="plc완속충전기">
+                                    <p>PLC<br>
+                                        완속충전기</p>
+                                    <div class="search" data-id="popup7">
+                                        <a href="">
+                                            <img src="images/main/product/search.png" alt="상품 상세보기">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/main/product/50kw.png" alt="50kw완속충전기">
+                                    <p>50kw<br>
+                                        완속충전기</p>
+                                    <div class="search" data-id="popup8">
+                                        <a href="">
+                                            <img src="images/main/product/search.png" alt="상품 상세보기">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!--swiper-wrapper-->
+                            <div class="swiper-pagination swiper-pagination2"></div>
+                        </div><!--mySwiper-2-->
+                        <div class="swiper-button swiper-button-next swiper-button-next2"></div>
+                        <div class="swiper-button swiper-button-prev swiper-button-prev2"></div>
+                    </div><!--swiper-wrap-->
+                    <div class="popup-wrap">
+                        <div class="popup" id="popup1">
+                            <div class="popup-inner d-flex">
+                                <div class="popup-image">
+                                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
+                                </div>
+                                <div class="popup-text">
+                                    <h3>7kw 완속충전기</h3>
+                                    <p><span>모델명</span>CSC - 07A7</p>
+                                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
+                                    <p><span>무게</span>10kg</p>
+                                    <p><span>재질</span>PC / ABS</p>
+                                    <p><span>보호등급</span>IP44</p>
+                                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
+                                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
+                                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+                                </div>
+                            </div>
+                            <button type="button">X</button>
+                        </div>
+                        <div class="popup" id="popup2">
+                            <div class="popup-inner d-flex">
+                                <div class="popup-image">
+                                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
+                                </div>
+                                <div class="popup-text">
+                                    <h3>7kw 완속충전기</h3>
+                                    <p><span>모델명</span>CSC - 07A7</p>
+                                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
+                                    <p><span>무게</span>10kg</p>
+                                    <p><span>재질</span>PC / ABS</p>
+                                    <p><span>보호등급</span>IP44</p>
+                                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
+                                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
+                                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+                                </div>
+                            </div>
+                            <button type="button">X</button>
+                        </div>
+                        <div class="popup" id="popup3">
+                            <div class="popup-inner d-flex">
+                                <div class="popup-image">
+                                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
+                                </div>
+                                <div class="popup-text">
+                                    <h3>7kw 완속충전기</h3>
+                                    <p><span>모델명</span>CSC - 07A7</p>
+                                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
+                                    <p><span>무게</span>10kg</p>
+                                    <p><span>재질</span>PC / ABS</p>
+                                    <p><span>보호등급</span>IP44</p>
+                                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
+                                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
+                                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+                                </div>
+                            </div>
+                            <button type="button">X</button>
+                        </div>
+                        <div class="popup" id="popup4">
+                            <div class="popup-inner d-flex">
+                                <div class="popup-image">
+                                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
+                                </div>
+                                <div class="popup-text">
+                                    <h3>7kw 완속충전기</h3>
+                                    <p><span>모델명</span>CSC - 07A7</p>
+                                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
+                                    <p><span>무게</span>10kg</p>
+                                    <p><span>재질</span>PC / ABS</p>
+                                    <p><span>보호등급</span>IP44</p>
+                                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
+                                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
+                                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+                                </div>
+                            </div>
+                            <button type="button">X</button>
+                        </div>
+                        <div class="popup" id="popup5">
+                            <div class="popup-inner d-flex">
+                                <div class="popup-image">
+                                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
+                                </div>
+                                <div class="popup-text">
+                                    <h3>7kw 완속충전기</h3>
+                                    <p><span>모델명</span>CSC - 07A7</p>
+                                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
+                                    <p><span>무게</span>10kg</p>
+                                    <p><span>재질</span>PC / ABS</p>
+                                    <p><span>보호등급</span>IP44</p>
+                                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
+                                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
+                                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+                                </div>
+                            </div>
+                            <button type="button">X</button>
+                        </div>
+                        <div class="popup" id="popup6">
+                            <div class="popup-inner d-flex">
+                                <div class="popup-image">
+                                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
+                                </div>
+                                <div class="popup-text">
+                                    <h3>7kw 완속충전기</h3>
+                                    <p><span>모델명</span>CSC - 07A7</p>
+                                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
+                                    <p><span>무게</span>10kg</p>
+                                    <p><span>재질</span>PC / ABS</p>
+                                    <p><span>보호등급</span>IP44</p>
+                                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
+                                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
+                                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+                                </div>
+                            </div>
+                            <button type="button">X</button>
+                        </div>
+                        <div class="popup" id="popup7">
+                            <div class="popup-inner d-flex">
+                                <div class="popup-image">
+                                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
+                                </div>
+                                <div class="popup-text">
+                                    <h3>7kw 완속충전기</h3>
+                                    <p><span>모델명</span>CSC - 07A7</p>
+                                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
+                                    <p><span>무게</span>10kg</p>
+                                    <p><span>재질</span>PC / ABS</p>
+                                    <p><span>보호등급</span>IP44</p>
+                                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
+                                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
+                                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+                                </div>
+                            </div>
+                            <button type="button">X</button>
+                        </div>
+                        <div class="popup" id="popup8">
+                            <div class="popup-inner d-flex">
+                                <div class="popup-image">
+                                    <img src="images/main/product/7kw-2x@2x.png" alt="7kw 완속충전기">
+                                </div>
+                                <div class="popup-text">
+                                    <h3>7kw 완속충전기</h3>
+                                    <p><span>모델명</span>CSC - 07A7</p>
+                                    <p><span>크기</span>300(W) x 547(H) X 216(D)</p>
+                                    <p><span>무게</span>10kg</p>
+                                    <p><span>재질</span>PC / ABS</p>
+                                    <p><span>보호등급</span>IP44</p>
+                                    <p><span>입력</span>단상 220V AC 60Hz 7kW(32A)</p>
+                                    <p><span>출력</span>단상 220V AC 60Hz 7kW x 1ch</p>
+                                    <p><span>케이블 길이</span>5 / 7 / 10M</p>
+                                </div>
+                            </div>
+                            <button type="button">X</button>
+                        </div>
                     </div>
-                </li>
-                <li>
-                    <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                    <h3>STEP 2
-                        <strong>설치 상담</strong>
-                    </h3>
-                    <p>
-                        등록하신 설치 신청서를<br>
-                        바탕으로 상담을<br>
-                        도와드립니다.<br>
-                    </p> 
-                </li>
-                <li>
-                    <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                    <h3>STEP 3
-                        <strong>현장 실사</strong>
-                    </h3>
-                    <p>
-                        영업 담당자가 직접<br>
-                        현장 실사를 통해<br>
-                        최적의 설치 계획을 <br>
-                        제안합니다.<br>
+                    <p class="mouse-scroll">
+                        Scroll Down
+                        <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
                     </p>
-                </li>
-                <li>
-                    <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                    <h3>STEP 4
-                        <strong>서류 작성</strong>
-                    </h3>
-                    <p>
-                        제품 설치에 필요한<br>
-                        서류를 작성합니다.<br>
-                    </p>
-                </li>
-                <li>
-                    <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
-                    <h3>STEP 5
-                        <strong>제품 설치</strong>
-                    </h3>
-                    <p>
-                        고객님의 즐거운<br>
-                        충전 라이프를 위하여<br>
-                        정확하고 안전하게<br>
-                        설치합니다.<br>
-                    </p>
-                </li>
-            </ul>
-        </div><!--wrap-inner-->
-        <p class="mouse-scroll"><img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤"></p>
-    </div><!--wrap-->
-</section>
+                </div>
+            </div><!--wrap-->
+        </section>
+        <section class="main-content" id="bizH">
+            <div class="wrap">
+                <div class="wrap-inner">
+                    <h2>Biz H
+                        <strong>
+                            충전소를 직접 운영하며<br>
+                            <span>수익 창출을 원하는 기업</span>에게<br>
+                            사업에 필요한 모든 시스템을 제공합니다.
+                        </strong>
+                    </h2>
+                    <div class="leaflet">
+                        <h3>리플렛</h3>
+                        <p><a href="#">KOR</a></p>
+                    </div>
+                </div><!--wrap-inner-->
+            </div><!--wrap-->
+            <p class="mouse-scroll">
+                Scroll Down
+                <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+            </p>
+        </section>
+        <section class="main-content" id="helloB">
+            <div class="wrap">
+                <div class="wrap-inner">
+                    <h2>Hello B
+                        <strong>
+                            충전소를 위탁 운영하며<br>
+                            <span>수익 창출을 원하는 건물 소유주</span>에게<br>
+                            충전 내역을 제공하고 충전 수익을 분배합니다.
+                        </strong>
+                    </h2>
+                    <div class="leaflet">
+                        <h3>리플렛</h3>
+                        <p><a href="#">KOR</a></p>
+                    </div>
+                </div><!--wrap-inner-->
+            </div><!--wrap-->
+            <p class="mouse-scroll">
+                Scroll Down
+                <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+            </p>
+        </section>
+        <section class="main-content" id="hello-charger">
+            <div class="wrap">
+                <div class="wrap-inner">
+                    <h2>Hello Station
+                        <strong>
+                            <span>전기차 충전소 창업</span> 및 구축에 도움을 드리고<br>
+                            성공적인 사업 수행을 지원합니다.
+                        </strong>
+                    </h2>
+                    <div class="leaflet">
+                        <h3>리플렛</h3>
+                        <p><a href="#">KOR</a></p>
+                    </div>
+                </div><!--wrap-inner-->
+            </div><!--wrap-->
+            <p class="mouse-scroll">
+                Scroll Down
+                <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+            </p>
+        </section>
+        <section class="main-content" id="our-merit">
+            <video src="images/main/our-merit/main_visual_1.mp4" autoplay muted loop width="100%"></video>
+            <div class="wrap">
+                <div class="wrap-inner">
+                    <h2>헬로차저가 좋은 충전기인 이유</h2>
+                    <ul class="d-flex">
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>충전기 내구성</h3>
+                            <p>
+                                제품 설계 시 NRTL인증 <br>
+                                기준을 반영하여 <br>
+                                높은 내구성과 안전성을 <br>
+                                보여줍니다.<br>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>통합운영시스템</h3>
+                            <p>
+                                자체 개발한 CSMS를 통해 <br>
+                                충전기 실시간 모니터링과 <br>
+                                원격제어를 구현했습니다.<br>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>누구나 간편하게</h3>
+                            <p>
+                                충전기에 부착된 신용카드 <br>
+                                결제 리더기를 사용하여 <br>
+                                번거로운 회원가입 절차 없이 <br>
+                                간편하게 사용할 수 있습니다.<br>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>빠른 현장대응</h3>
+                            <p>
+                                자체 AS팀과 전국 37개 <br>
+                                직영지사를 운영중인 <br>
+                                전문 업체를 통해 전국 어디나 <br>
+                                신속한 AS를 제공합니다. <br>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>품질 보증</h3>
+                            <p>
+                                소모품을 제외한 <br>
+                                충전기 핵심 부품에 <br>
+                                대하여 업계 최초로 5년<br>
+                                무상보증을 실시합니다.<br>
+                            </p>
+                        </li>
+                    </ul>
+                </div><!--wrap-inner-->
+                <p class="mouse-scroll">
+                    Scroll Down
+                    <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+                </p>
+            </div><!--wrap-->
+        </section>
+        <section class="main-content" id="technology">
+            <div class="wrap">
+                <div class="wrap-inner">
+                    <h2>Technology
+                        <strong>
+                            헬로차저는 미래를 향해 나아갑니다.
+                        </strong>
+                    </h2>
+                    <div class="technology-content">
+                        <img src="images/main/technology/technology-list.png" alt="technology-list">
+                        <ul class="d-flex">
+                            <li>
+                                <h3>DR</h3>
+                                <p>
+                                    전력 피크시 전력수요관리(DR)을 <br>
+                                    통해 전기차 충전기 출력전력을 <br>
+                                    통제하여 수요 감축 전력만큼 <br>
+                                    보상금을 지급되는 시스템입니다.<br>
+                                </p>
+                            </li>
+                            <li>
+                                <h3>V2G</h3>
+                                <p>
+                                    전기차와 전력망을 연결하는<br>
+                                    V2G 기술을 접목한<br>
+                                    스마트 그리드 서비스를<br>
+                                    지향합니다.<br>
+                                </p>
+                            </li>
+                            <li>
+                                <h3>Green Energy</h3>
+                                <p>
+                                    재생에너지를 적극<br>
+                                    활용한 신개념<br>
+                                    충전 서비스를 제공합니다.<br>
+                                </p>
+                            </li>
+                            <li>
+                                <h3>Big Data</h3>
+                                <p>
+                                    양질의 빅데이터를 분석 및 <br>
+                                    활용하여 충전기 및 <br>
+                                    관제 서비스 관리는 물론 고객의<br>
+                                    최적 충전 경험을 제시합니다.<br>
+                                </p>
+                            </li>
+                            <li>
+                                <h3>DR</h3>
+                                <p>
+                                    전력 피크시 전력수요관리(DR)을 <br>
+                                    통해 전기차 충전기 출력전력을 <br>
+                                    통제하여 수요 감축 전력만큼 <br>
+                                    보상금을 지급되는 시스템입니다.<br>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--wrap-inner-->
+                <p class="mouse-scroll">
+                    Scroll Down
+                    <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+                </p>
+            </div><!--wrap-->
+        </section>
+        <section class="main-content" id="hello-station">
+            <div class="wrap">
+                <div class="hello-station-title">
+                    <h2>Hello Station
+                        <strong>
+                            제품의 가치와 기술력을 인정 받은 헬로차저 이미 많은 고객님과 함께 하고 있습니다.
+                        </strong>
+                    </h2>
+                    <ul class="d-flex hello-station-list">
+                        <li class="hello-station-navi active" data-name="hello-station-1">
+                            <a href="#">공공주택</a>
+                        </li>
+                        <li class="hello-station-navi" data-name="hello-station-2">
+                            <a href="#">상업시설</a>
+                        </li>
+                        <li class="hello-station-navi" data-name="hello-station-3">
+                            <a href="#">사무실</a>
+                        </li>
+                        <li class="hello-station-navi" data-name="hello-station-4">
+                            <a href="#">기타</a>
+                        </li>
+                    </ul>
+                </div><!--//hello-station-title-->
+                <div class="slides">
+                    <ul class="hello-station-slide on" id="hello-station-1">
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="공공주택1"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="공공주택2"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="공공주택3"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="공공주택4"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="공공주택5"></li>
+                    </ul>
+                    <ul class="hello-station-slide" id="hello-station-2">
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="상업시설1"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="상업시설2"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="상업시설3"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="상업시설4"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="상업시설5"></li>
+                    </ul>
+                    <ul class="hello-station-slide" id="hello-station-3">
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="사무실1"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="사무실2"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="사무실3"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="사무실4"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="사무실5"></li>
+                    </ul>
+                    <ul class="hello-station-slide" id="hello-station-4">
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="기타1"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="기타2"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="기타3"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="기타4"></li>
+                        <li><img src="images/main/hello-station/hello-station-part1-1.png" alt="기타5"></li>
+                    </ul>
+                </div>
+                <p class="mouse-scroll">
+                    Scroll Down
+                    <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+                </p>
+            </div><!--wrap-->
+        </section>
+        <section class="main-content" id="inquiry">
+            <div class="wrap">
+                <div class="wrap-inner">
+                    <h2>설치문의
+                        <strong>
+                            좋은 차에는 좋은 충전기로<br>
+                            헬로차저가 충전기 설치를 도와드립니다.<br>
+                        </strong>
+                    </h2>
+                    <ul class="d-flex">
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>STEP 1
+                                <strong>설치 문의</strong>
+                            </h3>
+                            <p>
+                                설치 신청서를 통해<br>
+                                문의해 주세요.<br>
+                            </p>
+                            <div class="leaflet d-flex">
+                                <p><a href="#">설치 신청서 등록</a></p>
+                            </div>
+                            <div class="popup-install-form">
+                                <button type="button">X</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>STEP 2
+                                <strong>설치 상담</strong>
+                            </h3>
+                            <p>
+                                등록하신 설치 신청서를<br>
+                                바탕으로 상담을<br>
+                                도와드립니다.<br>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>STEP 3
+                                <strong>현장 실사</strong>
+                            </h3>
+                            <p>
+                                영업 담당자가 직접<br>
+                                현장 실사를 통해<br>
+                                최적의 설치 계획을 <br>
+                                제안합니다.<br>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>STEP 4
+                                <strong>서류 작성</strong>
+                            </h3>
+                            <p>
+                                제품 설치에 필요한<br>
+                                서류를 작성합니다.<br>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/main/our-merit/our-merit-icon.png" alt="our-merit-icon">
+                            <h3>STEP 5
+                                <strong>제품 설치</strong>
+                            </h3>
+                            <p>
+                                고객님의 즐거운<br>
+                                충전 라이프를 위하여<br>
+                                정확하고 안전하게<br>
+                                설치합니다.<br>
+                            </p>
+                        </li>
+                    </ul>
+                </div><!--wrap-inner-->
+                <p class="mouse-scroll">
+                    Scroll Down
+                    <img src="images/mouse-scroll/mouse-scroll.png" alt="마우스 스크롤">
+                </p>
+            </div><!--wrap-->
+        </section>
     </main>
     <footer>
         <div class="wrap">
-                <h2 class="sns-link blind"></h2>
-                <ul class="d-flex">
-                    <li><a href="#"><span>페이스북</span></a></li>
-                    <li><a href="#"><span>인스타그램</span></a></li>
-                    <li><a href="#"><span>유튜브</span></a></li>
-                    <li><a href="#"><span>네이버블로그</span></a></li>
-                    <li><a href="#"><span>카카오톡</span></a></li>
-                </ul>
-                <div class="util d-flex">
-                    <a href="#">개인정보 처리방침</a>
-                    <a href="#">이용약관</a>
-                </div>
-                <address>
-                    <p>본사 : 경기도 성남시 중원구 둔촌대로457번길 27 (상대원동) 성남우림라이온스밸리 1301호</p>
-                    <p>R&D센터/성남 2공장 : 경기도 성남시 중원구 사기막골로 124(상대원동) SKn테크노파크 비즈센터동 B220호</p>
-                    <p>천안 1공장 : 충남 천안시 서북구 백석공단1로 10(백석동) 천안미래에이스하이테크시티 M동 B109호</p>
-                    <p><span>상호 : 캐스트프로</span><span>대표자명 : 이재호</span> <span>사업자등록번호 : 230-81-04019</span> e-mail : sales_part@castpro.kr</p>
-                    <p><span>대표전화070-4855-2090</span>전기차충전기 제품/설치 문의070-4855-2188</p>
-                    <small>COPYRIGHT ⓒ 2023 CASTPRO ALL RIGHT RESERVED.</small>
-                </address>
+            <h2 class="sns-link blind"></h2>
+            <ul class="d-flex">
+                <li><a href="#"><span>페이스북</span></a></li>
+                <li><a href="#"><span>인스타그램</span></a></li>
+                <li><a href="#"><span>유튜브</span></a></li>
+                <li><a href="#"><span>네이버블로그</span></a></li>
+                <li><a href="#"><span>카카오톡</span></a></li>
+            </ul>
+            <div class="util d-flex">
+                <a href="#">개인정보 처리방침</a>
+                <a href="#">이용약관</a>
             </div>
+            <address>
+                <p>본사 : 경기도 성남시 중원구 둔촌대로457번길 27 (상대원동) 성남우림라이온스밸리 1301호</p>
+                <p>R&D센터/성남 2공장 : 경기도 성남시 중원구 사기막골로 124(상대원동) SKn테크노파크 비즈센터동 B220호</p>
+                <p>천안 1공장 : 충남 천안시 서북구 백석공단1로 10(백석동) 천안미래에이스하이테크시티 M동 B109호</p>
+                <p><span>상호 : 캐스트프로</span><span>대표자명 : 이재호</span> <span>사업자등록번호 : 230-81-04019</span> e-mail :
+                    sales_part@castpro.kr</p>
+                <p><span>대표전화070-4855-2090</span>전기차충전기 제품/설치 문의070-4855-2188</p>
+                <small>COPYRIGHT ⓒ 2023 CASTPRO ALL RIGHT RESERVED.</small>
+            </address>
+        </div>
     </footer>
     <aside id="quick-menu">
         <ul>
@@ -784,4 +786,5 @@
         </ul>
     </aside>
 </body>
+
 </html>
