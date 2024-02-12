@@ -482,6 +482,11 @@ body.on::after {
     position: relative;
     background: #000;
 }
+#our-merit video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 #our-merit .wrap-inner {
     z-index: 1;
